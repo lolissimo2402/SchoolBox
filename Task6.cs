@@ -27,9 +27,7 @@ namespace SchoolBox.task6
                     Console.WriteLine("unknown car");
                     Console.WriteLine("Thank You");
                     break;
-
             }
-        }
-        
+        }        
     }
 }
