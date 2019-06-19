@@ -10,6 +10,7 @@ namespace SchoolBox.Task4
             string myString = "Superman";
             string upper = myString.ToUpper();
             Console.WriteLine(upper);
+            Console.ReadLine();
 
         }   
 
