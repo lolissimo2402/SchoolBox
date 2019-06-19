@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 //2. Зчитати стрічку з екрану, створити метод який вертає стрічку без пробілів
 namespace SchoolBox.Task2
 {
@@ -6,9 +6,9 @@ namespace SchoolBox.Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string firstName = "My Second Task";
-            Console.WriteLine(firstName.Replace(" ", ""));
+            Console.WriteLine("Write your text");
+            string myStr = Console.ReadLine();
+            Console.WriteLine(myStr.Replace(" ", ""));
             Console.ReadLine();
         }
     }
