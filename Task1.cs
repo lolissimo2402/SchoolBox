@@ -7,7 +7,7 @@ namespace SchoolBox.Task1
     static void Main(string[] args);  
         {
            Console.WriteLine("MyFirstTask");
-           String firstName = "FirstMyTask";
+           string firstName = "FirstMyTask";
            Console.WriteLine("firstName has {0} characters.", firstName.Length);
            Console.ReadLine();
         }
