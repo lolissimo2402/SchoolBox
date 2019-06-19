@@ -9,8 +9,10 @@ namespace SchoolBox.Task3
             Console.WriteLine("Select firstNumberConverted");
             string firstNumber = Console.ReadLine();
             int firstNumberConverted = int.Parse(firstNumber);
+           
             Console.WriteLine("Select secondNumberConverted");
             string secondNumber = Console.ReadLine();
+           
             int secondNumberConverted = int.Parse(secondNumber);
             string formattedSum = string.Format("{0}+{1}={2}", firstNumber, secondNumber, firstNumber + secondNumber);
             string formattedDivision = string.Format("{0}-{1}={2}", firstNumber, secondNumber, firstNumber - secondNumber);
@@ -18,6 +20,7 @@ namespace SchoolBox.Task3
             Console.WriteLine(formattedSum);
             Console.WriteLine(formattedDivision);
             Console.WriteLine(formattedProduct);
+           
             Console.ReadLine();
         }
     }
