@@ -6,18 +6,18 @@ namespace SchoolBox.Task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select Num1");
-            string myStr1 = Console.ReadLine();
-            int num1 = int.Parse(myStr1);
-            Console.WriteLine("Select Num2");
-            string myStr2 = Console.ReadLine();
-            int num2 = int.Parse(myStr2);
-            string formatString1 = string.Format("{0}+{1}={2}", num1, num2, num1 + num2);
-            string formatString2 = string.Format("{0}/{1}={2}", num1, num2, num1 / num2);
-            string formatString3 = string.Format("{0}*{1}={2}", num1, num2, num1 * num2);
-            Console.WriteLine(formatString1);
-            Console.WriteLine(formatString2);
-            Console.WriteLine(formatString3);
+            Console.WriteLine("Select firstNumberConverted");
+            string firstNumber = Console.ReadLine();
+            int firstNumberConverted = int.Parse(firstNumber);
+            Console.WriteLine("Select secondNumberConverted");
+            string secondNumber = Console.ReadLine();
+            int secondNumberConverted = int.Parse(secondNumber);
+            string formattedSum = string.Format("{0}+{1}={2}", firstNumber, secondNumber, firstNumber + secondNumber);
+            string formattedDivision = string.Format("{0}-{1}={2}", firstNumber, secondNumber, firstNumber - secondNumber);
+            string formattedProduct = string.Format("{0}*{1}={2}", firstNumber, secondNumber, firstNumber * secondNumber);
+            Console.WriteLine(formattedSum);
+            Console.WriteLine(formattedDivision);
+            Console.WriteLine(formattedProduct);
             Console.ReadLine();
         }
     }
