@@ -16,12 +16,7 @@ namespace SchoolBox.task7
                 Console.WriteLine("10");
             else if (myString.Length > 10)
                 Console.WriteLine(11);
-            Console.ReadLine();
-
-
-            
-
-            
+            Console.ReadLine();          
         }
     }
 }
