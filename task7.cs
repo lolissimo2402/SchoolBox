@@ -5,8 +5,7 @@ namespace SchoolBox.task7
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {   
             string myString;
             Console.WriteLine("Enter the pass");
             myString = Console.ReadLine();
