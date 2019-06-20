@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 //7. Зчитати стрічку з екрану, якщо ввели B - вивести BMW, якщо M - Mersedess, W - Wolzvagen інакше вивести unknown car(використовуй switch -case)
 namespace SchoolBox.task6
 {
@@ -13,21 +13,18 @@ namespace SchoolBox.task6
             {
                 case "B":
                     Console.WriteLine("BMW");
-                    Console.WriteLine("Thank You");
                     break;
                 case "M":
                     Console.WriteLine("Mercedess");
-                    Console.WriteLine("Thank You");
                     break;
                 case "W":
                     Console.WriteLine("Wolcvagen");
-                    Console.WriteLine("Thank You");
                     break;
                 default:
                     Console.WriteLine("unknown car");
-                    Console.WriteLine("Thank You");
                     break;
             }
-        }        
+            Console.WriteLine("Thank You");
+        }
     }
 }
