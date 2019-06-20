@@ -15,10 +15,10 @@ namespace SchoolBox.Task3
            
             int secondNumberConverted = int.Parse(secondNumber);
             string formattedSum = string.Format("{0}+{1}={2}", firstNumber, secondNumber, firstNumber + secondNumber);
-            string formattedDivision = string.Format("{0}-{1}={2}", firstNumber, secondNumber, firstNumber - secondNumber);
+            string formattedDifference = string.Format("{0}-{1}={2}", firstNumber, secondNumber, firstNumber - secondNumber);
             string formattedProduct = string.Format("{0}*{1}={2}", firstNumber, secondNumber, firstNumber * secondNumber);
             Console.WriteLine(formattedSum);
-            Console.WriteLine(formattedDivision);
+            Console.WriteLine(formattedDifference);
             Console.WriteLine(formattedProduct);
            
             Console.ReadLine();
